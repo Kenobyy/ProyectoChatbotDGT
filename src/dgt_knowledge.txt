@@ -1,0 +1,4 @@
+Columna REGISTRATION_DATE: Fecha de matriculación del vehículo
+Columna BRAND_NAME: Marca del vehículo
+Columna MODEL_NAME: Modelo del vehículo
+Columna PROVINCE_REGISTRATION: Provincia donde está registrado el vehículo
