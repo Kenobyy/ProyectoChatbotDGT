@@ -63,28 +63,3 @@ WHERE
     t.MARCA NOT LIKE '%[^a-zA-Z0-9]%' AND   
     t.MODELO NOT LIKE '%[^a-zA-Z0-9]%' AND  
     t.COD_PROVINCIA_VEH NOT LIKE '%[^0-9]%';   
-
-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-..-.--.-.-..-.-.-.-..--..-.-.-.-.-.-..-.-..-.-.-.-..
-
-
-SNOWFLAKE
-
-pregutas:
-¿Cuántos vehículos se matricularon en el 2021 en España?
-
-SELECT COUNT(*) AS total_vehicles_2021 
-FROM PAUL
-WHERE REGISTRATION_DATE BETWEEN '20210101' AND '20211231';
-
-
-¿Cuál es la marca con más matriculaciones en España?
-
-SELECT BRAND_NAME, COUNT(*) AS total_registrations 
-FROM PAUL
-GROUP BY BRAND_NAME ORDER BY total_registrations DESC
-
-¿Cuál es la marca con más matricualciones en la provincia de CIUDAD REAL?
-SELECT  BRAND_NAME, COUNT(*) AS total_registrations_ciudad_real 
-FROM matriculaciones_2021_2023
-WHERE province_Registration = 'CIUDAD REAL'
-GROUP BY BRAND_NAME ORDER BY total_registrations_ciudad_real DESC
