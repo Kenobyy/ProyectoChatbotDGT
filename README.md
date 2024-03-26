@@ -1,5 +1,6 @@
 # ChatbotDGT 
 ## Vehicles & Insurances - Conversational Chatbot
+![image](https://github.com/MRocioRR/ChatbotDGT/assets/52194835/57756900-8e60-4542-b75b-38fa376137dd)
 
 📝Nota informativa: Proyecto elaborado en colaboración de compañeros de máster para el proyecto final. El proyecto necesita algunas mejoras para su buen uso.
 
