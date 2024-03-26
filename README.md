@@ -14,7 +14,11 @@ Esta estrategia no solo optimiza el proceso de análisis de datos, sino que tamb
 Uso de la base de datos de matriculaciones de vehículos nuevos que provee la DGT. Es importante mencionar que esta base de datos se actualiza de manera diaria y se puede consultar a través de su página web en el siguiente enlace:
 https://www.dgt.es/nuestros-servicios/tu-vehiculo/tus-vehiculos/consulta-los-datos-de-tus-vehiculos/
 
-Adjuntamos un archivo llamado "data" donde puede visulizar los datos con lo que el chatbot trabaja.
+- Adjuntos:
+  - Archivo análisis.ipynb que engloba todo el análisis de la base de datos original con más de 3 millores de registros de los años compredidos entre 2021 y 2023.
+  - Archivo tablafinal.sql con los scripst para la obtención de la data. 
+  - Archivo archivo llamado "data.txt" donde puede se visulizar los datos con lo que el chatbot trabaja.
+
 
 ## Descripción técnica
 Este chatbot está construido con Streamlit y Langchain. La versión actual utiliza el modelo de chat OpenAI ("gpt-3") para generar respuestas, siendo sencillo cambiar esta opción si precisas de otro modelo.
