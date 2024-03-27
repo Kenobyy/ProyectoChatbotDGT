@@ -15,10 +15,12 @@ Uso de la base de datos de matriculaciones de vehículos nuevos que provee la DG
 https://www.dgt.es/nuestros-servicios/tu-vehiculo/tus-vehiculos/consulta-los-datos-de-tus-vehiculos/
 
 - Adjuntos:
-  - Archivo "analisis.ipynb" que engloba todo el análisis de la base de datos original con más de 3 millores de registros de los años compredidos entre 2021 y 2023.
-  - Archivo "tablafinal.sql" con los scripst para la obtención de la data. 
-  - Archivo "data.txt" donde puede se visulizar los datos con lo que el chatbot trabaja.
+  - Archivo "analisis_&_limpieza.ipynb" que engloba todo el análisis de la base de datos original con más de 3 millores de registros de los años compredidos entre 2021 y 2023.
+  - Archivo "tablafinal.sql" con los scripst en SQL para la obtención de la data. 
+  - Archivo "data.txt" donde puede se visulizar los datos con lo que el chatbot trabaja (es un archivo reducido del original).
   - Archivo "consultas_snowflake.sql" con las consultas de verificación en SnowFlake de las cuestiones planteadas en el chatbot.
+  - Archivo "ModeloPredictivo_regresión_lineal_múltipleregresión.ipynb" relacionado con el análisis de ML (Documentación del TFM).
+  - Archivo "ModeloPredictivo_serie_de_tiempo.ipynb" relacionado con el análisis de ML (Documentación del TFM).
 
 
 ## Descripción técnica
