@@ -15,7 +15,7 @@ Uso de la base de datos de matriculaciones de vehículos nuevos que provee la DG
 https://www.dgt.es/nuestros-servicios/tu-vehiculo/tus-vehiculos/consulta-los-datos-de-tus-vehiculos/
 
 - Adjuntos:
-  - Archivo "analisis_&_limpieza.ipynb" que engloba todo el análisis de la base de datos original con más de 3 millores de registros de los años compredidos entre 2021 y 2023.
+  - Archivo "etl.ipynb" que engloba todo el análisis de la base de datos original con más de 3 millores de registros de los años compredidos entre 2021 y 2023.
   - Archivo "SQL_tablafinal.sql" con los scripst en SQL para la obtención de la data. 
   - Archivo "data.txt" donde puede se visulizar los datos con lo que el chatbot trabaja (es un archivo reducido del original).
   - Archivo "matriculaciones_top1000.sql" donde puede se visulizar una muestra de los datos orignales.
